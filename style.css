@@ -40,12 +40,22 @@ button {
   
   border-radius: 10px;
   
-  transition: background-color 0.2s, color 0.2s;
+  transition: background 0.5s, color 0.2s;
 }
 
 button:hover {
   background-color: black;
   color: white;
+  
+  background-image: radial-gradient(circle, transparent 1%, black 1%);
+  background-position: center;
+  background-size: 10000%;
+}
+
+button:active {
+  transition: background 0s;
+  background-color: #888;
+  background-size: 100%;
 }
 
 .txt-wr {
