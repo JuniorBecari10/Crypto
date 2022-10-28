@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,42 @@
 
 body {
   background-image: linear-gradient(90deg, #A100FF, #119CFD);
+}
+
+h1, span {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.txt-wr {
+  width: 90%;
+  text-align: left;
+  
+  margin-top: 20px;
+  
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  
+  margin-top: 10px;
+  border-radius: 5px;
+  
+  padding: 10px;
+  
+  font-family: "Consolas", sans-serif;
+  
+  resize: none;
+}
+
+textarea#output:focus {
+  border: 1px solid black;
 }
 
 .out-wrapper {
@@ -27,4 +65,6 @@ body {
   
   border-radius: 20px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 40%);
+  
+  text-align: center;
 }
