@@ -19,6 +19,30 @@ h1 {
   margin: 50px;
 }
 
+button {
+  padding: 5px 10px;
+  
+  text-transform: uppercase;
+  
+  background-color: white;
+  color: black;
+  
+  border: 1px solid black;
+  outline: none;
+  
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+  border-radius: 10px;
+  
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 .txt-wr {
   width: 90%;
   text-align: left;
@@ -41,6 +65,10 @@ textarea {
   font-family: "Consolas", sans-serif;
   
   resize: none;
+}
+
+textarea#input {
+  margin-top: 15px;
 }
 
 textarea#output:focus {
@@ -70,26 +98,13 @@ textarea#output:focus {
 }
 
 button#copy {
-  padding: 5px 10px;
   margin-left: 10px;
-  
-  text-transform: uppercase;
-  
-  background-color: white;
-  color: black;
-  
-  border: 1px solid black;
-  outline: none;
-  
-  font-weight: bold;
-  letter-spacing: 2px;
-  
-  border-radius: 10px;
-  
-  transition: background-color 0.2s, color 0.2s;
 }
 
-button#copy:hover {
-  background-color: black;
-  color: white;
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons * {
+  margin: 5px;
 }
