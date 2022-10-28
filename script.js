@@ -11,7 +11,7 @@ const clearOut = qs("#clear-out");
 
 buttons.forEach((e) => {
   e.addEventListener("click", () => {
-    outputBox.innerText = encrypt(e.id, inputBox.value);
+    outputBox.value = encrypt(e.id, inputBox.value);
   });
 });
 
