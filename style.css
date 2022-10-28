@@ -11,7 +11,7 @@ body {
   background-image: linear-gradient(90deg, #A100FF, #119CFD);
 }
 
-h1, span {
+h1, span, button {
   font-family: "Raleway", sans-serif;
 }
 
@@ -67,4 +67,29 @@ textarea#output:focus {
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 40%);
   
   text-align: center;
+}
+
+button#copy {
+  padding: 5px 10px;
+  margin-left: 10px;
+  
+  text-transform: uppercase;
+  
+  background-color: white;
+  color: black;
+  
+  border: 1px solid black;
+  outline: none;
+  
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+  border-radius: 10px;
+  
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button#copy:hover {
+  background-color: black;
+  color: white;
 }
